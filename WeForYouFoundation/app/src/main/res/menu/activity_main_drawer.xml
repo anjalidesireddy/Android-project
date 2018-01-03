@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_phone"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_mission"
+            android:icon="@drawable/ic_mission"
+            android:title="Mission" />
+        <item
+            android:id="@+id/nav_gallary"
+            android:icon="@drawable/ic_gallary"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Gallary" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Upcomming program" />
+        <item
+            android:id="@+id/nav_founder"
+            android:icon="@drawable/ic_founder"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Founderinfo" />
+
+
+
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/ic_donate"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Donate" />
+        <item
+            android:id="@+id/nav_valuanteer"
+            android:icon="@drawable/ic_reg"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Valunteer Reg" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>

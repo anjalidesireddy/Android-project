@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">WeForYouFoundation</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="about_us_text_temp">WEFORYOU FOUNDATION is a registered not-for-profit organisation which has been working for the social service activities since 2015. We are group of schoolmates Batch from 2002-03 at Z.P.High School Mohammadnagar, Nizamabad, Telangana. After volunteering for various social activities we have come up with our own organization (a pure NGO) we will be working for poor, orphans, child education, medical tree plantation, beggars, poverty, Human Development, Fund Raising for other NGO’s.</string>
+    <string name="contact_email"><u>http://www.mychintu.com</u></string>
+    <string name="contact_web"><u>info@weforyoufoundation.org</u></string>
+    <string name="contact_email_id_one"><u>info@mychintu.in</u></string>
+    <string name="contact_email_id_two"><u> info@mychintu.com</u></string>
+    <string name="txt_adress_om_namo"> #2-49, Taranagar,Serilingampally,Hyderabad, Telangana – 19</string>
+    <string name="txt_adress_om_namo1">#3-17, 1st Floor, Main Road
+Mohammad Nagar, Nizamsagar, Kamareddy,
+TS – 503302</string>
+
+    <string name="mobil_no">Mobile NO</string>
+    <string name="textsave">Save</string>
+    <string name="txt_nodata">No Data</string>
+    <string name="title_activity_maps_activityfor_yoga_center">Map</string>
+
+    <string name="telephone_1">+91 814 301 5015</string>
+    <string name="telephone_2">+91 22 25790058</string>
+    <string name="telephone_3">+91 22 25790059</string>
+    <string name="telephone_4">+91 22 25790061</string>
+    <string name="txt_address">Address Reg.Office</string>
+    <string name="txt_address1">Address Branch.Office</string>
+</resources>

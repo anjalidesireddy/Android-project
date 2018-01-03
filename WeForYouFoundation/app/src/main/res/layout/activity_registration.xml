@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <com.grepthor.weforyoufoundation.helper.DiagonalLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"
+        app:diagonal_angle="18"
+        app:diagonal_direction="right"
+        app:diagonal_position="bottom">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@color/colorPrimaryDark" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+            <!--   <TextView
+                   android:id="@+id/tvTitle"
+                   android:text="Registration"
+                   android:textColor="#FFFFFF"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAllCaps="true"
+                   android:padding="10dp"
+                   android:gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginRight="15dp"
+                   android:layout_marginTop="20dp"
+                   android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+            <LinearLayout
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etFullName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_border"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ. "
+                    android:drawableLeft="@drawable/ic_user"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/white"
+                    android:ellipsize="end"
+                    android:hint="Full Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:padding="5dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/icons"
+                    android:textColorHint="@color/greyColor" />
+
+                <!-- <EditText
+                     android:id="@+id/etLastName"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/edittext_border"
+                     android:hint="Last Name"
+                     android:padding="8dp"
+                     android:singleLine="true"
+                     android:minLines="1"
+                     android:ellipsize="end"
+                     android:layout_marginLeft="2dp"
+                     android:maxLines="1"
+                     android:textColor="@color/icons"
+                     android:textColorHint="@color/icons"
+                     android:maxLength="15"
+                     android:inputType="textNoSuggestions"
+                     android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                     android:layout_weight="1"
+                     android:drawableLeft="@drawable/ic_user"
+                     android:drawableTint="@color/white"
+                     android:drawablePadding="12dp"/>-->
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/etContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etRefferalCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_border"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/white"
+                    android:ellipsize="end"
+                    android:hint="Refferel Code"
+                    android:inputType="textNoSuggestions"
+                    android:minLines="1"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/icons"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#$%*@"
+                    android:textColorHint="@color/icons" />
+
+                <!--        <EditText
+                            android:id="@+id/etMobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/etName"
+                            android:background="@drawable/edittext_border"
+                            android:hint="Mobile"
+                            android:maxLength="10"
+                            android:inputType="number"
+                            android:padding="5dp"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                            android:layout_marginRight="2dp"
+                            android:minLines="1"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:textColorHint="@color/icons"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/ic_phone"
+                            android:drawableTint="@color/white"
+                            android:drawablePadding="12dp"
+                            android:textColor="@color/icons"/>-->
+
+                <RelativeLayout
+                    android:id="@+id/rlRegisterMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/edittext_border">
+
+                    <ImageView
+                        android:id="@+id/ivContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_phone"
+                        android:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/etCountryCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_toRightOf="@id/ivContact"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:focusableInTouchMode="false"
+                        android:singleLine="true"
+                        android:text="+91"
+                        android:visibility="gone"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/etRegisterMobile"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/etCountryCode"
+                        android:layout_toRightOf="@id/etCountryCode"
+                        android:background="@null"
+                        android:hint="Mobile Number"
+                        android:inputType="number"
+                        android:maxLength="15"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="@color/icons"
+                        android:textColorHint="@color/greyColor"/>
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/etCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext_border"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.()/1234567890-_ "
+                android:drawableLeft="@drawable/ic_loc"
+                android:drawablePadding="12dp"
+                android:drawableTint="@color/white"
+                android:focusable="false"
+                android:hint="Select city"
+                android:inputType="text|textNoSuggestions"
+                android:padding="5dp"
+                android:layout_below="@id/etContact"
+
+                android:singleLine="true"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/icons"
+                android:textColorHint="@color/greyColor" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etCountry"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext_border"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="12dp"
+                android:drawableTint="@color/white"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/icons"
+                android:textColorHint="@color/greyColor" />
+
+
+            <LinearLayout
+                android:id="@+id/llPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etEmail"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext_border"
+                android:gravity="center|center_vertical"
+                android:orientation="horizontal"
+                tools:context="com.engenius.pc1.showhidedemo.MainActivity">
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/ic_pass"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/white"
+                    android:hint="Password"
+                    android:inputType="textNoSuggestions|textPassword"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:digits="0123456789/*-+\|}]{[_()!@#$%^'*`~.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/icons"
+                    android:textColorHint="@color/greyColor" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/etPassword"
+                    android:layout_toRightOf="@id/etPassword"
+                    android:layout_weight="8">
+
+                    <ImageView
+                        android:id="@+id/ivSeenPassword"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_view"
+                        android:tint="@android:color/white"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/ivUnSeenPassword"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_hide"
+                        android:tint="@android:color/white"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llConPasswordPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext_border"
+                android:gravity="center|center_vertical"
+                android:orientation="horizontal"
+                tools:context="com.engenius.pc1.showhidedemo.MainActivity">
+
+                <EditText
+                    android:id="@+id/etConPasswordPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/ic_pass"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/white"
+                    android:hint="Confirm Password"
+                    android:inputType="textNoSuggestions|textPassword"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/icons"
+                    android:digits="0123456789/*-+\|}]{[_()!@#$%^'*`~.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                    android:textColorHint="@color/greyColor" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/etConPasswordPassword"
+                    android:layout_toRightOf="@id/etConPasswordPassword"
+                    android:layout_weight="8">
+
+                    <ImageView
+                        android:id="@+id/ivSeenConPasswordPassword"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_view"
+                        android:tint="@android:color/white"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvSignUpBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/llConPasswordPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/my_button_border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivUnseenConPasswordPassword"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/llConPasswordPassword"
+                android:layout_alignEnd="@+id/llConPasswordPassword"
+                android:layout_alignRight="@+id/llConPasswordPassword"
+                android:layout_marginBottom="18dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/ic_hide"
+                android:tint="@android:color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </com.grepthor.weforyoufoundation.helper.DiagonalLayout>
+
+    <TextView
+        android:id="@+id/tvTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:shadowColor="@color/text_shadow"
+        android:text="Back"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
