@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/TextViewLargeStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Mission"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/TextViewMediumTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To identify and work alongside the economically and socially deprived, so that they become educated, skilled and aware. Enable them to be self-reliant and enjoy a healthy, dignified and sustainable quality of life."></android.support.v7.widget.AppCompatTextView>
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/TextViewLargeStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Vision"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/TextViewMediumTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A society based on legitimate rights, equity, justice, honesty, social sensitivity and a culture of service in which all are self-reliant. WEFORYOU FOUNDATION’s focus and sole reason for existence is to work as a catalyst to bring sustainable change in the lives of orphans and underprivileged children. The family of the child is the medium through which the development takes place."></android.support.v7.widget.AppCompatTextView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+

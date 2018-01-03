@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">FragmentEx26</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home_card1_help">
+        Weforyou Foundation understands this very much
+        and has decided to open shortly, its WEFORYOU
+        FOUNDATION ORPHAN ASYLUM in a rural area. We
+        need funding to complete this project. With
+        increased financial support, we can build building
+        to shelter more children, we can clothe and feed
+        and provide for the educations of more children… </string>
+
+    <string name="home_card1_blood">
+        Weforyou Foundation committed to saving lives by regularly donating blood.
+        Through Foundation members are encouraged to attend blood donors,
+        learn about healthy lifestyles, and give blood regularly.
+        Members can make new friends around the world,
+        promote life saving and life changing practices,
+        and most of all -we have happy while saving lives.</string>
+
+    <string name="home_card1_camp">
+        We are planning to run a small health camps
+        for underprivileged children and women where we intend
+        to provide basic health care facility in villages.</string>
+
+
+    <string name="home_button">Donate</string>
+    <string name="home_card1_help_heading">Help...</string>
+    <string name="home_card1_blood_heading">Blood Donation...</string>
+    <string name="home_card1_camp_heading">Health Camps...</string>
+
+
+    <string name="about_us_text_temp">WEFORYOU FOUNDATION is a registered not-for-profit organisation which has been working for the social service activities since 2015. We are group of schoolmates Batch from 2002-03 at Z.P.High School Mohammadnagar, Nizamabad, Telangana. After volunteering for various social activities we have come up with our own organization (a pure NGO) we will be working for poor, orphans, child education, medical tree plantation, beggars, poverty, Human Development, Fund Raising for other NGO’s.</string>
+    <string name="contact_email"><u>http://www.mychintu.com</u></string>
+    <string name="contact_web"><u>info@weforyoufoundation.org</u></string>
+    <string name="contact_email_id_one"><u>info@mychintu.in</u></string>
+    <string name="contact_email_id_two"><u> info@mychintu.com</u></string>
+    <string name="txt_adress_om_namo"> #2-49, Taranagar,Serilingampally,\n
+        Hyderabad, Telangana – 19</string>
+    <string name="txt_adress_om_namo1">#3-17, 1st Floor, Main Road
+Mohammad Nagar, Nizamsagar, Kamareddy,
+TS – 503302</string>
+
+    <string name="mobil_no">Mobile NO</string>
+    <string name="textsave">Save</string>
+    <string name="txt_nodata">No Data</string>
+    <string name="title_activity_maps_activityfor_yoga_center">Map</string>
+
+    <string name="telephone_1">+91 814 301 5015</string>
+    <string name="telephone_2">+91 22 25790058</string>
+    <string name="telephone_3">+91 22 25790059</string>
+    <string name="telephone_4">+91 22 25790061</string>
+    <string name="txt_address">Address Reg.Office</string>
+    <string name="txt_address1">Address Branch.Office</string>
+
+
+</resources>

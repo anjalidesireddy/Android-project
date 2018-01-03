@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="2dp">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="140dp"
+        android:id="@+id/countryImage"
+        android:layout_width="140dp"
+
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    <TextView
+        android:text="hgfghfg"
+        android:layout_height="wrap_content"
+        android:id="@+id/countryName"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/countryImage"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:ellipsize="marquee"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/desi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/countryName"
+        android:text="TextView" />
+
+
+    <!-- <TextView
+         android:text="hgfghfg"
+         android:layout_height="wrap_content"
+         android:id="@+id/countryName1"
+         android:layout_width="wrap_content"
+         android:layout_below="@+id/countryImage"
+         android:layout_marginTop="0dp"
+         android:layout_centerHorizontal="true"
+         android:textSize="18sp"
+         android:ellipsize="marquee"/>
+ -->
+
+
+</RelativeLayout>

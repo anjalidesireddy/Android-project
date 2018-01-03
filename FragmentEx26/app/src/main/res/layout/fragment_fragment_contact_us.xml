@@ -1,0 +1,169 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    >
+
+
+    <TableRow   android:paddingTop="10px" android:gravity="center">
+
+        <TextView
+
+            android:textStyle="bold"
+            style="@style/TextViewLargeStyle"
+            android:layout_width="wrap_content"
+            android:text="@string/txt_address"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dip"
+           />
+
+    </TableRow>
+
+
+    <TableRow   android:paddingTop="10px" android:gravity="center">
+
+        <TextView
+            style="@style/TextViewLargeStyle"
+            android:layout_width="wrap_content"
+            android:text="@string/txt_adress_om_namo"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dip"
+            />
+
+    </TableRow>
+
+    <TableRow   android:paddingTop="10px" android:gravity="center">
+
+        <TextView
+
+            android:textStyle="bold"
+            style="@style/TextViewLargeStyle"
+            android:layout_width="wrap_content"
+            android:text="@string/txt_address1"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dip"
+            />
+    </TableRow>
+
+    <TableRow   android:paddingTop="10px" android:gravity="center">
+
+        <TextView
+            style="@style/TextViewLargeStyle"
+            android:layout_width="wrap_content"
+            android:text="@string/txt_adress_om_namo1"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dip"
+            />
+
+    </TableRow>
+    <LinearLayout
+        android:id="@+id/llContactWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:src="@drawable/ic_web"
+            android:tint="#a32740" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvContactWeb"
+            style="@style/TextViewMediumTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_web"
+            android:textColor="@color/green_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llContactEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:src="@drawable/ic_web"
+            android:tint="#a32740" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvContactEmail"
+            style="@style/TextViewMediumTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_email"
+            android:textColor="@color/green_dark" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llContactTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:src="@drawable/ic_phone"
+            android:tint="#a32740" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvContactPhone"
+            style="@style/TextViewMediumTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telephone_1"
+            android:textColor="@color/green_dark" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/llEmailIdOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:src="@drawable/ic_email"
+            android:tint="#a32740" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvEmailIdOne"
+            style="@style/TextViewMediumTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_web"
+            android:textColor="@color/green_dark" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</TableLayout>
